@@ -1,6 +1,6 @@
 # At MOMent
 
-[![At MOMent]](https://youtu.be/EX5_h67ZdCM)
+[At MOMent](https://youtu.be/EX5_h67ZdCM)
 
 ## 製品概要
 ### 見守り Tech
