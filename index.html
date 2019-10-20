@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AtMoMent</title>
+    <script type="text/javascript" src="/webiopi.js"></script>
+    <script type="text/javascript">
+    webiopi().ready(function() {
+        var button = webiopi().createGPIOButton(17, "Shutter");
+        $("#controls").append(button);
+                webiopi().refreshGPIO(true);
+                
+    });
+    </script>
+
+<style type="text/css">
+        button {
+            display: block;
+            margin: 5px 5px 5px 5px;
+            width: 160px;
+            height: 45px;
+            font-size: 24pt;
+            font-weight: bold;
+            color: white;
+        }
+ 
+        #gpio17.LOW {
+            background-color: red;
+        }
+ 
+        #gpio17.HIGH {
+            background-color: Blue;
+        }
+    </style>
+ 
+</head>
+
+<body>
+ <script>function koshin(){
+	 location.reload();
+	 }
+	 </script>
+<div id="controls" align="center">
+<!img  src="moment.jpg" alt="foto" width ="500" height="500" >
+<input type="image" src="moment.jpg" alt ="foto"  width ="700" height="700" onclik="koshin()">
+</div>
+</body>
+</html>
